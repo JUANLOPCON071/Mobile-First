@@ -94,7 +94,7 @@ header img {
 main {
     width: 100%;
     height: auto;
-    background-color: var(--soft-blue);
+    background-color: var(--just-white);
 }
 .main-exchange-container {
     width: 100%;
@@ -133,7 +133,7 @@ main {
     line-height: 1.6rem;
     color: #757575;
 }
-.main-currency-table {
+.main-currency-table, .main-commission-table {
     width: 70%;
     min-width: 235px;
     max-width: 500px;
@@ -147,6 +147,13 @@ main {
     font-weight: bold;
     line-height: 2.3rem;
     color: var(--bitcoin-orange);
+}
+.main-commission-table .commission-table--title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--secondary-blue);
 }
 .currency-table--container {
     width: 90%;
@@ -215,7 +222,21 @@ main {
     background-color: var(--soft-orange);
     border-radius: 8px;
 }
+.commission-table--date {
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft-blue);
+    border-radius: 8px; 
+}
 .currency-table--date p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+}
+.commission-table--date p {
     font-size: 1.2rem;
     line-height: 1.5rem;
     color: var(--warm-black);
