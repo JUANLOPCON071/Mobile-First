@@ -465,3 +465,59 @@ main {
     background-image: url(./assets/icons/arrow-right\ 1.svg);
     margin-left: 10px;
 }
+.plan-card-semestral {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 24px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--black);
+    font-family: "DM Sans", sans-serif;
+    background-color: var(--just-white);
+    border: 3px solid var(--secondary-blue);
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-top: 25px;
+}
+.plan-card-semestral:hover {
+    background-color: var(--off-white);
+    color: var(--grey);
+}
+.plan-card-semestral span {
+    width: 24px;
+    height: 24px;
+    background-image: url(./assets/icons/arrow-right\ 1.svg);
+    margin-left: 10px;
+}
+.plan-card-mensual {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 24px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--black);
+    font-family: "DM Sans", sans-serif;
+    background-color: var(--just-white);
+    border: 3px solid rgb(142, 212, 142);
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-top: 25px;
+}
+.plan-card-mensual:hover {
+    background-color: var(--off-white);
+    color: var(--grey);
+}
+.plan-card-mensual span {
+    width: 24px;
+    height: 24px;
+    background-image: url(./assets/icons/arrow-right\ 1.svg);
+    margin-left: 10px;
+}
