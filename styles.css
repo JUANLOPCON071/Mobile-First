@@ -392,10 +392,10 @@ main {
     position: relative;
     scroll-snap-align: center;
     width: 70%;
-    min-width: 230px;
+    min-width: 190px;
     max-width: 300px;
     height: 250px;
-    margin: 50px 25px 0;
+    margin: 50px 5px 0;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
@@ -430,7 +430,7 @@ main {
 .plan-card--price span {
     position: absolute;
     top: 4rem;
-    left: 7.5rem;
+    left: 5.5rem;
     font-size: 1.2rem;
     font-weight: 400;
 }
@@ -442,8 +442,7 @@ main {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
-    padding: 12px 24px;
+    padding: 12px 18px;
     font-size: 1.4rem;
     font-weight: bold;
     color: var(--black);
@@ -461,8 +460,8 @@ main {
     color: var(--grey);
 }
 .plan-card-ca span {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     background-image: url(./assets/icons/arrow-right\ 1.svg);
     margin-left: 10px;
 }
@@ -470,8 +469,7 @@ main {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
-    padding: 12px 24px;
+    padding: 12px 18px;
     font-size: 1.4rem;
     font-weight: bold;
     color: var(--black);
@@ -489,8 +487,8 @@ main {
     color: var(--grey);
 }
 .plan-card-semestral span {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     background-image: url(./assets/icons/arrow-right\ 1.svg);
     margin-left: 10px;
 }
@@ -498,8 +496,7 @@ main {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
-    padding: 12px 24px;
+    padding: 12px 18px;
     font-size: 1.4rem;
     font-weight: bold;
     color: var(--black);
@@ -517,8 +514,8 @@ main {
     color: var(--grey);
 }
 .plan-card-mensual span {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     background-image: url(./assets/icons/arrow-right\ 1.svg);
     margin-left: 10px;
 }
@@ -528,4 +525,39 @@ main {
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
+}
+footer {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: var(--bitcoin-orange);
+}
+footer section {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+footer .left ul {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+}
+.left li {
+    margin: 10px 0;
+}
+.left a {
+    text-decoration: none;
+    color: var(--just-white);
+}
+.right {
+    display: flex;
+    flex-direction: column;
+}
+.right p {
+    font-size: .9rem;
+    font-weight: 200;
+    color: var(--just-white);
+    margin-top: 15px;
 }
